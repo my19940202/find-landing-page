@@ -54,24 +54,6 @@ export default function Hero({ locale, CTALocale }) {
 
 					<div className='w-full md:w-8/12 mx-auto flex flex-col md:flex-row md:items-center justify-between gap-y-5'>
 						<HeroIcons />
-
-						<div className='flex flex-col md:flex-row gap-2'>
-							<a
-								title='get source code'
-								className='btn btn-sm md:btn-md btn-base border-none hover:ring-1 ring-base-content text-base-100 hover:text-base-content bg-base-content hover:bg-base-100 rounded-full'
-								href='https://github.com/huglemon/inwind-landing-page'
-							>
-								<SiGithub />
-								{CTALocale.btn1}
-							</a>
-							<a
-								title='get source code'
-								className='btn btn-sm md:btn-md btn-base rounded-full'
-								href='https://huglemon.com/blog/i-open-sourced-a-saas-landing-page'
-							>
-								<IoDocumentText /> {CTALocale.btn2}
-							</a>
-						</div>
 					</div>
 				</motion.div>
 				<motion.div

@@ -30,9 +30,9 @@ export default function Navbar() {
 	return (
 		<header className='w-full z-50 bg-base-100 p-5 pb-0 max-w-[1280px] mx-auto md:mb-5 flex justify-between items-center'>
 			<a
-				aria-label='landing page template'
+				aria-label='keyword finder'
 				className='flex items-center w-1/2 md:w-1/5'
-				title='landing page template'
+				title='keyword finder'
 				href={`/${langName}`}
 			>
 				<Image
@@ -42,7 +42,7 @@ export default function Navbar() {
 					className='transition-all hover:scale-110 w-6 md:w-10 h-6 md:h-10'
 					alt='logo'
 				></Image>
-				<h2 className='ml-3 font-bold leading-5'>Landing Page</h2>
+				<h2 className='ml-3 font-bold leading-5'>Keyword Finder</h2>
 			</a>
 
 			<ul className='w-3/5 px-5 font-medium hidden md:flex flex-nowrap items-center justify-around'>
@@ -67,15 +67,6 @@ export default function Navbar() {
 			</ul>
 
 			<div className='md:w-1/5 flex items-center justify-end gap-2'>
-				<label className='flex items-center justify-center md:bg-base-100 md:rounded-full w-5 md:w-8 h-5 md:h-8 md:shadow-sm md:hover:shadow-md transition-all'>
-					<a
-						aria-label='get template source code'
-						title='get template source code'
-						href='https://github.com/huglemon/inwind-landing-page'
-					>
-						<SiGithub size={14} />
-					</a>
-				</label>
 				<ThemeToggle />
 				<LangSwitch />
 				<details className='flex md:hidden dropdown dropdown-end'>
