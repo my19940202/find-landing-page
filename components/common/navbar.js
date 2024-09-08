@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
 import { MdMenu } from "react-icons/md";
-import { SiGithub } from "react-icons/si";
 import { useEffect, useState } from "react";
+import { FaSquareTwitter } from "react-icons/fa6";
 import ThemeToggle from "./themeToggle";
 import LangSwitch from "./langSwitch";
 
@@ -64,6 +64,15 @@ export default function Navbar() {
             </ul>
 
             <div className="md:w-1/5 flex items-center justify-end gap-2">
+                <div>
+                    <a
+                        title={'iFinder on X'}
+                        href='https://x.com/iFinderExt'
+                        target='_blank'
+                    >
+                        <FaSquareTwitter size={30} />
+                    </a>
+                </div>
                 <ThemeToggle />
                 <LangSwitch />
                 <details className="flex md:hidden dropdown dropdown-end">

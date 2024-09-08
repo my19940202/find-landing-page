@@ -3,7 +3,6 @@ import HeroIcons from "./icons";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { SiGithub } from "react-icons/si";
-import { IoDocumentText } from "react-icons/io5";
 
 import { useEffect, useState } from "react";
 export default function Hero({ locale, CTALocale }) {
@@ -32,34 +31,14 @@ export default function Hero({ locale, CTALocale }) {
                 className="relative z-10 flex flex-col items-start md:items-center py-10 md:py-20 overflow-hidden"
                 style={{ perspective: "800px" }}
             >
-                <motion.div
-                    initial={{ opacity: 0, y: 50 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{
-                        delay: 0.4,
-                        type: "spring",
-                        stiffness: 100,
-                        damping: 10,
-                    }}
-                >
-                    <h1 className="font-bold text-5xl md:text-7xl bg-gradient-to-r from-base-content from-50% to-[#9c9c9c] text-center bg-clip-text text-transparent !leading-[1.25em] mb-5">
-                        {locale.h1}
-                    </h1>
-                </motion.div>
+                <h1 className="font-bold text-5xl md:text-7xl bg-gradient-to-r from-base-content from-50% to-[#9c9c9c] text-center bg-clip-text text-transparent !leading-[1.25em] mb-5">
+                    {locale.h1}
+                </h1>
 
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{
-                        delay: 0.2,
-                        duration: 1,
-                    }}
-                >
-                    <h2 className="w-full md:w-10/12 mx-auto text-xl md:text-2xl text-base-content/80 md:text-center mb-5 md:mb-10">
-                        {locale.h2}
-                    </h2>
-                </motion.div>
-                <motion.div
+                <h2 className="w-full md:w-10/12 mx-auto text-xl md:text-2xl text-base-content/80 md:text-center mb-5 md:mb-10">
+                    {locale.h2}
+                </h2>
+                {/* <motion.div
                     initial={{ opacity: 0, y: 100, rotateX: "0deg" }}
                     animate={{ opacity: 1, y: 0, rotateX: `${tilt}deg` }}
                     transition={{
@@ -75,9 +54,20 @@ export default function Hero({ locale, CTALocale }) {
                         className="hidden md:flex w-full -mt-10"
                         alt="app demo"
                     />
-                </motion.div>
+                </motion.div> */}
+                <iframe
+                    width="1100"
+                    height="660"
+                    src="https://www.youtube.com/embed/g_yoOLcgkMg?si=ftshnfdWJfY7vhNa"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                </iframe>
             </section>
 
+            {/* 背景网格 */}
             <div className="absolute w-[100%] left-[0] top-[10%] md:top-[20%] h-[300px]">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"

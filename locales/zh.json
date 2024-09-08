@@ -4,8 +4,7 @@
         "h2": "网页浏览助手，让你更轻松快速的找到信息"
     },
     "Feature": {
-        "h2": "",
-        "h3": "Features of inWind Landing Page Template",
+        "h2": "iFinder 产品特点",
         "description1": "Awesome landing page template.",
         "description2": "Based on Next.JS, DaisyUI, TailwinCSS and other powerful libary.",
         "description3": "Completely open source and completely free."
@@ -25,14 +24,14 @@
         "description3": ",I will display your tweet and recommendation here."
     },
     "Faq": {
-        "h2": "FAQ",
-        "h3": "Frequently Asked Questions",
-        "description": "Here are some of the most frequently asked questions."
+        "h2": "常见问题",
+        "h3": "常见问题",
+        "description": "以下是一些常见使用问题。"
     },
     "CTA": {
-        "h2": "Add To Chrome",
-        "h3": "Automatically highlights your search terms and helps you find what you want"
-    },
+        "h2": "添加到浏览器",
+        "h3": "快来Chrome应用商店安装和体验iFinder吧！"
+    },  
     "CTAButton": {
         "btn1": "Add To Chrome",
         "btn2": "View Docs"

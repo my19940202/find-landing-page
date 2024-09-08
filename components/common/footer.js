@@ -40,7 +40,7 @@ export default function Footer() {
                             alt="logo"
                         ></Image>
                         <h2 className="ml-3 font-bold leading-5">
-                            Landing Page
+                            iFinder
                         </h2>
                     </a>
                     <div className="flex flex-wrap justify-center gap-x-2 md:gap-x-5 gap-y-1">
