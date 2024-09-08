@@ -27,7 +27,7 @@ export default function Feature({ locale, langName = 'en' }) {
 
             <div className='relative z-10 w-full md:w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2 gap-5'>
                 {list.map((item, index) => {
-                    return <FeatureCard featureItem={item} />
+                    return <FeatureCard featureItem={item} key={index} />
                 })}
             </div>
 
