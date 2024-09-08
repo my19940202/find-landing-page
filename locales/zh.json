@@ -1,40 +1,40 @@
 {
     "Hero": {
-        "h1": "关键词高亮助手!",
-        "h2": "这是一个免费且功能强大的chrome扩展，快速高亮关键词和段落，一键滚动定位，让你的信息搜索起飞"
+        "h1": "iFinder",
+        "h2": "网页浏览助手，让你更轻松快速的找到信息"
     },
     "Feature": {
-        "h2": "Feature",
-        "h3": "乘风-落地页模板的特点",
-        "description1": "出色的落地页模板。",
-        "description2": "基于Next.JS、DaisyUI、TailwindCSS和其他强大的库。",
-        "description3": "完全开源且完全免费。"
+        "h2": "",
+        "h3": "Features of inWind Landing Page Template",
+        "description1": "Awesome landing page template.",
+        "description2": "Based on Next.JS, DaisyUI, TailwinCSS and other powerful libary.",
+        "description3": "Completely open source and completely free."
     },
     "Pricing": {
-        "h2": "Pricing",
-        "h3": "选择您的计划",
-        "description": "选择最适合您需求的计划。",
+        "h2": "Our Pricing",
+        "h3": "Choose Your Plan",
+        "description": "Select the plan that best fits your needs.",
         "doYouLike": "你喜欢这个落地页模板吗？",
         "follow": "关注我的推特。"
     },
     "Testimonial": {
-        "h2": "Testimonial",
+        "h2": "Testimonials",
         "h3": "Wall of Love",
-        "description1": "如果您使用这个落地页模板并在您的推特上推荐它，",
-        "description2": "请告诉我",
-        "description3": "，我会在这里展示您的推文和推荐。"
+        "description1": "If you use this landing page template and recommend it on your Twitter,",
+        "description2": "please let me know",
+        "description3": ",I will display your tweet and recommendation here."
     },
     "Faq": {
         "h2": "FAQ",
-        "h3": "常见问题",
-        "description": "以下是一些最常见的问题。"
+        "h3": "Frequently Asked Questions",
+        "description": "Here are some of the most frequently asked questions."
     },
     "CTA": {
-        "h2": "添加到Chrome",
-        "h3": "自动高亮搜索词让你想要的内容"
+        "h2": "Add To Chrome",
+        "h3": "Automatically highlights your search terms and helps you find what you want"
     },
     "CTAButton": {
-        "btn1": "立即安装",
-        "btn2": "查看文档"
+        "btn1": "Add To Chrome",
+        "btn2": "View Docs"
     }
 }

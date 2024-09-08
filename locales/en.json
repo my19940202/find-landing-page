@@ -1,11 +1,11 @@
 {
     "Hero": {
-        "h1": "Keyword finder",
-        "h2": "a web search assistant to enhance your search efficiency"
+        "h1": "iFinder",
+        "h2": "iFinder, a web browsing assistant to enhance your search efficiency."
     },
     "Feature": {
         "h2": "Our Feature",
-        "h3": "Features of inWind Landing Page Template",
+        "h3": "Features of iFinder",
         "description1": "Awesome landing page template.",
         "description2": "Based on Next.JS, DaisyUI, TailwinCSS and other powerful libary.",
         "description3": "Completely open source and completely free."

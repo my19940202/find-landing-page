@@ -27,9 +27,9 @@ export default function Footer() {
             <div className="max-w-[1024px] mx-auto flex flex-col md:flex-row justify-between items-center md:items-end gap-2 text-sm">
                 <div className="flex flex-col items-center md:items-start">
                     <a
-                        aria-label="keyword finder"
+                        aria-label="iFinder"
                         className="flex items-center mb-3"
-                        title="keyword finder"
+                        title="iFinder"
                         href={`/${langName}`}
                     >
                         <Image
