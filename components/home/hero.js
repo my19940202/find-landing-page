@@ -58,8 +58,8 @@ export default function Hero({ locale, CTALocale }) {
                 <iframe
                     width="1100"
                     height="660"
-                    src="https://www.youtube.com/embed/g_yoOLcgkMg?si=ftshnfdWJfY7vhNa"
-                    title="YouTube video player"
+                    src="https://www.youtube.com/embed/-dyooekCDAM?si=E4WJnB97r2IDXZPS"
+                    title="iFinder product showcase video"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin"
