@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { MdMenu } from "react-icons/md";
 import { useEffect, useState } from "react";
-import { FaSquareTwitter } from "react-icons/fa6";
+import { FaSquareTwitter , FaPhone} from "react-icons/fa6";
 import ThemeToggle from "./themeToggle";
 import LangSwitch from "./langSwitch";
 
@@ -73,6 +73,8 @@ export default function Navbar() {
                         <FaSquareTwitter size={30} />
                     </a>
                 </div>
+                <a href="mailto:nelzomal@gmail.com" target="_blank" class="block">
+                <FaPhone size={20} />  </a> 
                 <ThemeToggle />
                 <LangSwitch />
                 <details className="flex md:hidden dropdown dropdown-end">
