@@ -3,7 +3,7 @@ import Image from "next/image";
 import { MdMenu } from "react-icons/md";
 import { useEffect, useState } from "react";
 import { FaSquareTwitter } from "react-icons/fa6";
-import { IoMailOpen } from "react-icons/io5";
+import { IoMailOpen, IoLogoWechat  } from "react-icons/io5";
 import ThemeToggle from "./themeToggle";
 import LangSwitch from "./langSwitch";
 
@@ -74,8 +74,12 @@ export default function Navbar() {
                         <FaSquareTwitter size={30} />
                     </a>
                 </div>
+                <a href="/wechat_qrcode.jpeg" target="_blank">
+                    <IoLogoWechat size={30} />  
+                </a>
                 <a href="mailto:nelzomal@gmail.com" target="_blank" class="block">
-                <IoMailOpen size={30} />  </a> 
+                    <IoMailOpen size={30} />  
+                </a> 
                 <ThemeToggle />
                 <LangSwitch />
                 <details className="flex md:hidden dropdown dropdown-end">
