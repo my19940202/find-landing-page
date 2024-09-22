@@ -80,7 +80,7 @@ export default function Navbar() {
                 <a href="/wechat_qrcode.jpeg" target="_blank">
                     <IoLogoWechat size={30} />  
                 </a>
-                <a href="mailto:nelzomal@gmail.com" target="_blank" class="block">
+                <a href="mailto:ifinderext@163.com" target="_blank" class="block">
                     <IoMailOpen size={30} />  
                 </a> 
                 <ThemeToggle />
