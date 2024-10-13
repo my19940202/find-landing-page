@@ -24,7 +24,7 @@ export default function Cta({ locale, CTALocale }) {
                     <a
                         title="get source code"
                         className="mt-10 btn btn-sm md:btn-md btn-base border-none hover:ring-1 ring-base-content text-base-100 hover:text-base-content bg-base-content hover:bg-base-100 rounded-full"
-                        href="https://chromewebstore.google.com/detail/ifinder/dmmcfncehcemiabpohglmcnkpigbjolb"
+                        href="https://chromewebstore.google.com/detail/ifinder/kkmkajighobhdjmnlaopcjnpjfliijmh"
                     >
                         <img
                             width={20}

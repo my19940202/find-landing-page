@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	images: {
-		remotePatterns: [
-			{
-				protocol: 'https',
-				hostname: 'landingpage.huglemon.com',
-			},
-		],
-	},
+    images: {
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'www.ifinder.one',
+            },
+        ],
+    },
 };
 
 export default nextConfig;
