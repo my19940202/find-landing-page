@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { NavLinksList } from "@/lib/navLinksList";
+import { NavLinksList, BackLink } from "@/lib/navLinksList";
 import { usePathname } from "next/navigation";
 import { defaultLocale } from "@/lib/i18n";
 import { useEffect, useState } from "react";
@@ -17,7 +17,10 @@ export default function Footer() {
             } else {
                 setLangName(pathname.split("/")[1]);
             }
-            setLinkList(NavLinksList[`LINK_${langName.toUpperCase()}`] || []);
+            setLinkList([
+                ...NavLinksList[`LINK_${langName.toUpperCase()}`],
+                ...BackLink[`LINK_${langName.toUpperCase()}`]
+            ]);
         };
         fetchLinksList();
     }, [pathname, langName]);
@@ -49,7 +52,8 @@ export default function Footer() {
                                 <a
                                     key={index}
                                     title={link.name}
-                                    href={`/${langName}${link.url}`}
+                                    target={link.url.startsWith("http") ? "_blank" : ""}
+                                    href={link.url.startsWith("http") ? link.url : `/${langName}${link.url}`}
                                 >
                                     {link.name}
                                 </a>
