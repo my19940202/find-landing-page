@@ -6,4 +6,4 @@ Allow: /
 Host: https://www.ifinder.one
 
 # Sitemaps
-Sitemap: https://www.ifinder.one/sitemap-0.xml
+Sitemap: https://www.ifinder.one/sitemap.xml
