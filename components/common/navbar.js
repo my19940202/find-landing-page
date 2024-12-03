@@ -3,7 +3,7 @@ import Image from "next/image";
 import { MdMenu } from "react-icons/md";
 import { useEffect, useState } from "react";
 import { FaSquareTwitter } from "react-icons/fa6";
-import { IoMailOpen, IoLogoWechat , IoLogoDiscord } from "react-icons/io5";
+import { IoMailOpen, IoLogoWechat, IoLogoDiscord } from "react-icons/io5";
 import ThemeToggle from "./themeToggle";
 import LangSwitch from "./langSwitch";
 
@@ -75,14 +75,14 @@ export default function Navbar() {
                     </a>
                 </div>
                 <a href="https://discord.gg/BSjJeGYH" target="_blank">
-                    <IoLogoDiscord size={30} />  
+                    <IoLogoDiscord size={30} />
                 </a>
                 <a href="/wechat_qrcode.jpeg" target="_blank">
-                    <IoLogoWechat size={30} />  
+                    <IoLogoWechat size={30} />
                 </a>
-                <a href="mailto:ifinderext@163.com" target="_blank" class="block">
-                    <IoMailOpen size={30} />  
-                </a> 
+                <a href="mailto:ifinderext@163.com" target="_blank" className="block">
+                    <IoMailOpen size={30} />
+                </a>
                 <ThemeToggle />
                 <LangSwitch />
                 <details className="flex md:hidden dropdown dropdown-end">

@@ -5,7 +5,6 @@ import { SiteConfig } from "@/lib/config/site";
 import CustomHead from "@/components/common/head";
 import Navbar from "@/components/common/navbar";
 import Footer from "@/components/common/footer";
-import { ThemeProvider } from "@/context/ThemeContext";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
@@ -32,13 +31,11 @@ export default async function RootLayout({ children }) {
                 <CustomHead />
             </head>
             <body>
-                <ThemeProvider>
-                    <div className="w-full min-h-svh text-base-content bg-base-100">
-                        <Navbar />
-                        <div className="px-5">{children}</div>
-                        <Footer />
-                    </div>
-                </ThemeProvider>
+                <div className="w-full min-h-svh text-base-content bg-base-100">
+                    <Navbar />
+                    <div className="px-5">{children}</div>
+                    <Footer />
+                </div>
                 <Analytics />
             </body>
         </html>
